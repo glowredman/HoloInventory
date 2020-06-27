@@ -1,3 +1,6 @@
+### Notice:
+This fork only adds one feature. Thus, nearly the whole source code is not by me (glowredman) but by the original author, [dries007](https://github.com/dries007/HoloInventory). All credits for the original code go to him.
+
 # HoloInventory
 
 Adds Holographic inventory screen for all blocks with an inventory.
