@@ -34,6 +34,7 @@ import java.util.HashSet;
 
 public class Helper
 {
+	public static boolean showName;
     public static boolean showOnSneak;
     public static boolean showOnSprint;
     public static HashSet<String> banned;

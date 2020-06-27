@@ -23,6 +23,7 @@
 
 package net.dries007.holoInventory.client.renderers;
 
+import net.dries007.holoInventory.Helper;
 import net.dries007.holoInventory.client.ClientEventHandler;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.WorldClient;
@@ -112,7 +113,7 @@ public class InventoryRenderer implements IRenderer
             GlStateManager.scale(0.03, 0.03, 0.03);
             int w = mc.fontRenderer.getStringWidth(name);
             GlStateManager.disableDepth();
-            mc.fontRenderer.drawString(name,  -w/2, 0, 0xFFFFFF);
+            if(Helper.showName) mc.fontRenderer.drawString(name,  -w/2, 0, 0xFFFFFF);
             GlStateManager.enableDepth();
             GlStateManager.popAttrib();
             GlStateManager.popMatrix();

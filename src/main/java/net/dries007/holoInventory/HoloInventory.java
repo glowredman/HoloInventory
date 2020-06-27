@@ -122,6 +122,7 @@ public class HoloInventory
     {
         logger.info("Update config");
 
+        Helper.showName = config.get(MODID, "shownName", false, "Show the inventory's name.").setRequiresWorldRestart(false).setRequiresMcRestart(false).getBoolean();
         Helper.showOnSneak = config.get(MODID, "showOnSneak", true, "Show on sneak, bypasses other keyboard settings.").setRequiresWorldRestart(false).setRequiresMcRestart(false).getBoolean();
         Helper.showOnSprint = config.get(MODID, "showOnSprint", true, "Show on sprint, bypasses other keyboard settings.").setRequiresWorldRestart(false).setRequiresMcRestart(false).getBoolean();
         Helper.banned = Sets.newHashSet(config.get(MODID, "banned", new String[0]).setRequiresWorldRestart(false).setRequiresMcRestart(false).getStringList());
