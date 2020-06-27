@@ -2,7 +2,7 @@
   "modListVersion": 2,
   "modList": [{
     "modid": "holoinventory",
-    "name": "HoloInventory",
+    "name": "HoloInventory FPSP Edition",
     "description": "Holographic inventory screens!",
     "version": "${version}",
     "mcversion": "${mcversion}",

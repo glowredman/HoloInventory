@@ -50,7 +50,7 @@ import static net.dries007.holoInventory.HoloInventory.*;
 public class HoloInventory
 {
     public static final String MODID = "holoinventory";
-    public static final String MODNAME = "HoloInventory";
+    public static final String MODNAME = "HoloInventory FPSP Edition";
     /** @see net.dries007.holoInventory.client.ConfigGuiFactory */
     public static final String GUI_FACTORY = "net.dries007.holoInventory.client.ConfigGuiFactory";
 
